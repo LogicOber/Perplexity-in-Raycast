@@ -1,9 +1,8 @@
 # Perplexity AI in Raycast
 
 ## Demo
-<video width="640" height="300" controls>
-  <source src="image/README/Area.MP4" type="video/mp4">
-</video>
+https://github.com/LogicOber/Perplexity-in-Raycast/assets/133167749/9309b8b6-20b9-4c6b-840e-6984d9036751
+
 
 ## Step 1
 please use the following command to create a Python environment named venv:
