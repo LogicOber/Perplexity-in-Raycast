@@ -46,9 +46,15 @@ After successful setup, before asking a question in the future, you only need to
 ## Tips
 
 - If you uninstall the plugin, the history will disappear. Therefore, the question history is only for temporary saving. It is recommended that during each learning process, if necessary, please save it to your PKM or other note-taking tools.
-- In the ask-perplexity.tsx code file, the path to venv is specified on line 18. You can modify it as needed. Here is the line for reference:
-
-  ```
-  pythonPath: 'venv/bin/python', // Modify your Python path here.
-  ```
+- In the ```ask-perplexity.tsx``` code file, the path to the Python virtual environment and the ```app.py``` file are specified on lines 18 and 24 respectively. You should modify these to the **absolute paths** on your system. And the path to the `answer.txt` file is specified on line 46. You should modify this to the absolute path on your system. Here is the line for reference:
+  - Here are the lines for reference:
+    ```
+    pythonPath: '<absolute_path_to_your_venv>/bin/python', // Modify your Python path here.
+    ```
+    ```
+    scriptPath: '<absolute_path_to_your_app.py>', // Modify your app.py path here.
+    ```
+    ```
+    const answerPath = '<absolute_path_to_your_answer.txt>'; // Modify your answer.txt path here.
+    ```
 - Once the Raycast Extension is installed, it does not need to be installed again. However, ```bot.py``` needs to be continuously running in the background to listen. Therefore, please ensure it is running before using the plugin.

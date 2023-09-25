@@ -27,13 +27,8 @@ url = sys.argv[2] if len(sys.argv) > 2 else None
 auth = sys.argv[3] if len(sys.argv) > 3 else None
 
 previous_answer = None
-if os.path.exists('answer.txt'):
-    with open('answer.txt', 'r') as f:
-        previous_answer = f.read()
-else:
-    with open('answer.txt', 'w') as f:
-        f.write('')
-    previous_answer = ''
+with open('/Users/lysonober/build_world/Raycast_personal/perplexity-person/answer.txt', 'r') as f:
+    previous_answer = f.read()
 
 send_question(question, url, auth)
 time.sleep(7)
