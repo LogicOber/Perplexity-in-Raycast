@@ -4,8 +4,8 @@
 <video width="640" height="300" controls>
   <source src="image/README/Area.MP4" type="video/mp4">
 </video>
-## Step 1
 
+## Step 1
 please use the following command to create a Python environment named venv:
 
 ```
