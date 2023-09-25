@@ -1,0 +1,59 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "perplexity-person",
+  "title": "perplexity",
+  "description": "use perplexity.ai",
+  "icon": "perplexity-logo.png",
+  "author": "Lyson",
+  "categories": [
+    "Communication"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "ask-perplexity",
+      "title": "Ask Perplexity",
+      "description": "This is perplexity",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.59.0",
+    "@types/node-fetch": "^2.6.5",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "1.0.5",
+    "@types/node": "18.8.3",
+    "@types/python-shell": "^1.0.3",
+    "@types/react": "18.0.9",
+    "eslint": "^7.32.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  },
+  "preferences": [
+    {
+      "name": "discordUrl",
+      "title": "Discord URL",
+      "description": "The URL for the Discord server",
+      "type": "password",
+      "required": true
+    },
+    {
+      "name": "discordAuth",
+      "title": "Discord Auth",
+      "description": "The Auth for the Discord server",
+      "type": "password",
+      "required": true
+    }
+  ]
+}

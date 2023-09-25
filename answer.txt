@@ -1,0 +1,13 @@
+Notion是一种强大的工具，可以帮助您和您的团队更有效地协作和更高效地管理知识[[2]](https://www.linkedin.com/advice/0/how-can-you-use-notion-improve-team-collaboration)。然而，Notion目前不支持中文，速度较慢，需要第三方插件[[6]](https://eightify.app/summary/architecture-and-engineering/easy-notion-tutorial-get-started-with-notion-introduction)。以下是一些关于Notion团队协作的方法：
+
+1. 使用Notion的数据库功能来跟踪任务和项目。您可以创建一个数据库，其中包含所有任务和项目的详细信息，包括截止日期、负责人和状态。您可以使用筛选器和排序功能来快速查找和排序任务和项目[[2]](https://www.linkedin.com/advice/0/how-can-you-use-notion-improve-team-collaboration)。
+
+2. 使用Notion的页面功能来创建团队文档和知识库。您可以创建一个页面，其中包含所有团队成员需要了解的信息，例如公司价值观、流程和标准操作程序。您可以使用Notion的协作功能，让团队成员一起编辑和更新页面[[2]](https://www.linkedin.com/advice/0/how-can-you-use-notion-improve-team-collaboration)。
+
+3. 使用Notion的评论功能来进行团队讨论。您可以在Notion的页面和任务中添加评论，让团队成员一起讨论和解决问题[[2]](https://www.linkedin.com/advice/0/how-can-you-use-notion-improve-team-collaboration)。
+
+4. 使用Notion的提醒功能来跟踪任务和项目的进度。您可以在Notion的任务和页面中设置提醒，以便在截止日期前提醒您和您的团队成员[[2]](https://www.linkedin.com/advice/0/how-can-you-use-notion-improve-team-collaboration)。
+
+5. 使用Notion的集成功能来与其他工具集成。Notion可以与许多其他工具集成，例如Slack、Trello和Google日历。通过与其他工具集成，您可以更轻松地在Notion中跟踪任务和项目[[2]](https://www.linkedin.com/advice/0/how-can-you-use-notion-improve-team-collaboration)。
+
+需要注意的是，Notion在中国被屏蔽[[3]](https://techcrunch.com/2020/05/24/work-collaboration-unicorn-notion-is-blocked-in-china/)[[5]](https://www.reddit.com/r/Notion/comments/gqdsff/notion_is_blocked_in_china/)，并且目前不支持中文[[6]](https://eightify.app/summary/architecture-and-engineering/easy-notion-tutorial-get-started-with-notion-introduction)。
